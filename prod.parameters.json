@@ -1,20 +1,15 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "$schema":"https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "appServiceFEAppName": {
-            "value": "talphaidze-assignment-app-bicep-prod-FE"
+        "appServiceAppName": {
+            "value": "talphaidzeappprodbicep"
         },
-        "appServiceFEPlanName": {
-            "value": "talphaidze-assignment-asp-bicep-prod-FE"
+        "appServicePlanName": {
+            "value": "talphaidzeappprodbicep"
         },
-        "appServiceBEAppName": {
-            "value": "talphaidze-assignment-app-bicep-prod-BE"
-        },
-        "appServiceBEPlanName": { 
-            "value": "talpahaidze-assignment-asp-bicep-prod-BE"},
         "storageAccountName": {
-            "value": "talphaidzestorageprod"}
-
+            "value": "talphaidzeprodstorage"
+        }
     }
 }
